@@ -2,7 +2,9 @@ from openai import OpenAI
 import jobDescription as jd
 from resume import *
 
-client = OpenAI(api_key="sk-pznf9qh-cjOb3Comhc2zE1AORTT9L2LYb293bfJg61T3BlbkFJEUN3PWQKYXBDxBPPergk2qpCDo5lrlgn-tdTGlSx4A")
+myAPIkey = open("apikey.txt",'r')
+
+client = OpenAI(api_key = myAPIkey.read()) #replace this with you API key.
 
 # Set your OpenAI API key
 
