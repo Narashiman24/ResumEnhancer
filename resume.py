@@ -1,3 +1,5 @@
+import json
+
 my_resume = '''Niruthiya Narashiman Srinivasan
 +1(470) 460 0085 | nsrinivasan3@student.gsu.edu | Atlanta, GA | linkedin.com/narashimans
 EDUCATION
@@ -41,3 +43,124 @@ student populations within University Housing
 SKILLS
 Technical Skills Soft Skills Python, MySQL, REST APIs, Flutter, Flask, HTML, CSS
 Leadership, Communication, Conflict Resolution, Administration'''
+
+json_data = open('schema.json','r')
+
+resume_format = f'''You are a professional resume generator. Produce a resume in the following YAML format with:
+
+cv:
+  name: <Your Name>
+  location: <Your Location>
+  email: <Your Email>
+  phone: <Your Phone>
+  website: <Your Website>
+  social_networks:
+    - network: LinkedIn
+      username: <LinkedIn Username>
+    - network: GitHub
+      username: <GitHub Username>
+  sections:
+    education:
+      - institution: <Institution Name>
+        area: <Field of Study>
+        degree: <Degree>
+        start_date: <Start Date>
+        end_date: <End Date>
+        highlights:
+          - <Highlight 1>
+          - <Highlight 2>
+    experience:
+      - company: <Company Name>
+        position: <Position>
+        location: <Location>
+        start_date: <Start Date>
+        end_date: <End Date>
+        highlights:
+          - <Highlight 1>
+          - <Highlight 2>
+    projects:
+      - name: <Project Name>
+        date: <Date>
+        highlights:
+          - <Highlight 1>
+          - <Highlight 2>
+    technologies:
+      - label: <Label>
+        details: <Details>
+
+design:
+  theme: mycustomtheme
+  font: EB Garamond
+  font_size: 12pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: PAGE_NUMBER
+  disable_last_updated_date: false
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 1 cm
+      bottom: 1 cm
+      left: 1 cm
+      right: 1 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+
+locale_catalog:
+  phone_number_format: national 
+  date_style: "MONTH_ABBREVIATION YEAR" 
+  abbreviations_for_months: # translation of the month abbreviations
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months: # translation of the full month names
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+  month: month      # translation of the word "month"
+  months: months    # translation of the word "months"
+  year: year        # translation of the word "year"
+  years: years      # translation of the word "years"
+  present: present  # translation of the word "present"
+  to: to            # translation of the word "to"
+
+Use this json schema for refrence: {json_data}
+
+Make sure to use the exact YAML structure provided. Use indentation, colons, and hyphens properly to maintain valid YAML syntax. Fill in each section with appropriate resume information in a similar structured format.
+'''

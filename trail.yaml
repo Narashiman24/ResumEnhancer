@@ -1,0 +1,143 @@
+cv:
+  email: nsrinivasan3@student.gsu.edu
+  location: Atlanta, GA
+  name: Niruthiya Narashiman Srinivasan
+  phone: +1(470) 460 0085
+  sections:
+    education:
+    - area: Computer Science
+      degree: "Bachelor\u2019s"
+      end_date: null
+      highlights:
+      - "President\u2019s List(Fall 23)"
+      - "Dean\u2019s List(Spring23-Present)"
+      institution: Georgia State University
+      start_date: null
+    experience:
+    - company: Computer Science Dept., Georgia State University
+      end_date: present
+      highlights:
+      - Tutored more than 50 students with computer science classes, including CSC1301
+        and CSC1302.
+      - Led multiple group sessions and identified the common issues with specific
+        concepts and addressed the issue to respective professors
+      location: Atlanta, GA
+      position: Computer Science Tutor
+      start_date: 2023-09
+    - company: Georgia State University
+      end_date: present
+      highlights:
+      - Facilitated intentional conversations and conflict resolution strategies to
+        promote student well-being and adherence to university policies, enhancing
+        interpersonal communication skills
+      - Acting as first of contact for more than 60 students and fostering a supportive
+        environment for diverse student populations within University Housing
+      location: Atlanta, GA
+      position: Resident Assistant
+      start_date: 2023-08
+    projects:
+    - date: null
+      highlights:
+      - Created a real-time facial emotion detection system using pre-trained models,
+        enhancing user interaction by identifying emotions from live video feeds.
+      - Employed OpenCV, numpy, tensorflow, keras, and the fer library to implement
+        and optimize the emotion detection process.
+      name: Facial Emotion Detector
+    - date: null
+      highlights:
+      - Developed a sentiment analysis system for IMDb movie reviews, accurately categorizing
+        reviews as positive, negative, or neutral.
+      - Used Python, nltk, and the VADER sentiment analysis model for efficient natural
+        language processing and sentiment scoring.
+      name: Text Sentiment Analyzer
+    - date: null
+      highlights:
+      - Created a Python script utilizing requests and csv libraries to manage and
+        analyze mobile phone data from an API, ensuring accurate retrieval and storage
+        of operator and circle information.
+      name: Phone Number Locator
+    technologies:
+    - details: Python, MySQL, REST APIs, Flutter, Flask, HTML, CSS
+      label: Technical Skills
+    - details: Leadership, Communication, Conflict Resolution, Administration
+      label: Soft Skills
+
+  social_networks:
+  - network: LinkedIn
+    username: narashimans
+  - network: GitHub
+    username: Narashiman24
+  website: null
+
+
+design:
+  theme: mycustomtheme
+  font: EB Garamond
+  font_size: 12pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: PAGE_NUMBER
+  disable_last_updated_date: false
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 1 cm
+      bottom: 1 cm
+      left: 1 cm
+      right: 1 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+
+locale_catalog:
+  phone_number_format: national 
+  date_style: "MONTH_ABBREVIATION YEAR" 
+  abbreviations_for_months: # translation of the month abbreviations
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months: # translation of the full month names
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+  month: month      # translation of the word "month"
+  months: months    # translation of the word "months"
+  year: year        # translation of the word "year"
+  years: years      # translation of the word "years"
+  present: present  # translation of the word "present"
+  to: to            # translation of the word "to"
