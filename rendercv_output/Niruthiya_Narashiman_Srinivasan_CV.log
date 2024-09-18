@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  17 SEP 2024 22:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  17 SEP 2024 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -735,7 +735,7 @@ L3 programming layer <2024-03-14>
 Here is how much of TeX's memory you used:
  14829 strings out of 476002
  273481 string characters out of 5788363
- 1948496 words of memory out of 5000000
+ 1949496 words of memory out of 5000000
  36766 multiletter control sequences out of 15000+600000
  593461 words of font info for 57 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -758,7 +758,7 @@ s/Python.framework/Versions/3.12/lib/python3.12/site-packages/rendercv/renderer
 /tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb></Library/
 Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/rendercv
 /renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Niruthiya_Narashiman_Srinivasan_CV.pdf (1 page, 153988 bytes)
+Output written on Niruthiya_Narashiman_Srinivasan_CV.pdf (1 page, 153480 bytes)
 .
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)

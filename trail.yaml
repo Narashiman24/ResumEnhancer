@@ -12,9 +12,9 @@ cv:
       - "President\u2019s List(Fall 23)"
       - "Dean\u2019s List(Spring23-Present)"
       institution: Georgia State University
-      start_date: 2023-01-01
+      start_date: 2022-08
     experience:
-    - company: Computer Science Dept., Georgia State University
+    - company: Georgia State University
       end_date: present
       highlights:
       - Tutored more than 50 students with computer science classes, including CSC1301
@@ -23,34 +23,33 @@ cv:
         concepts and addressed the issue to respective professors.
       location: Atlanta, GA
       position: Computer Science Tutor
-      start_date: 2023-10-01
+      start_date: 2023-10
     - company: Georgia State University
       end_date: present
       highlights:
       - Facilitated intentional conversations and conflict resolution strategies to
-        promote student well-being and adherence to university policies, enhancing
-        interpersonal communication skills.
-      - Acting as first of contact for more than 60 students and fostering a supportive
-        environment for diverse student populations within University Housing.
+        promote student well-being and adherence to university policies.
+      - Acting as first point of contact for more than 60 students and fostering a
+        supportive environment for diverse student populations within University Housing.
       location: Atlanta, GA
       position: Resident Assistant
-      start_date: 2023-10-01
+      start_date: 2023-10
     projects:
-    - date: null
+    - date: 2022-05
       highlights:
       - Created a real-time facial emotion detection system using pre-trained models,
         enhancing user interaction by identifying emotions from live video feeds.
       - Successfully processed and analyzed emotions in over 1000 video frames, ensuring
         robust and accurate emotion detection across diverse scenarios.
       name: Facial Emotion Detector
-    - date: null
+    - date: 2022-03
       highlights:
       - Developed a sentiment analysis system for IMDb movie reviews, accurately categorizing
         reviews as positive, negative, or neutral.
       - Analyzed the sentiment of over 500 movie reviews, providing detailed sentiment
         insights and enhancing data-driven decision-making.
       name: Text Sentiment Analyzer
-    - date: null
+    - date: 2021-12
       highlights:
       - Created a Python script utilizing requests and csv libraries to manage and
         analyze mobile phone data from an API, ensuring accurate retrieval and storage
@@ -61,15 +60,12 @@ cv:
       name: Phone Number Locator
     technologies:
     - details: Python, MySQL, REST APIs, Flutter, Flask, HTML, CSS
-      label: Technical Skills
-    - details: Leadership, Communication, Conflict Resolution, Administration
-      label: Soft Skills
+      label: Languages and Technologies
   social_networks:
   - network: LinkedIn
     username: narashimans
   - network: GitHub
     username: Narashiman24
-  website: null
 design:
   color: '#004f90'
   disable_external_link_icons: false

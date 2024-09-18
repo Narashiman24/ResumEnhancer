@@ -16,7 +16,7 @@ with open('Full_Name_CV.yaml', 'r') as file:
 def enhance_resume(job_description, resume_text):
     # Craft a prompt to guide the model
     prompt = f"""
-    Given the following job description, optimze this resume with given jobdescription so that passes ATS system. if there null value use an random value but follow the json schema
+    Given the following job description, optimze this resume with given jobdescription so that passes ATS system. Makeup a reusme that matchs with job description completely.
     {resume_format}
     
     Job Description:
@@ -27,11 +27,11 @@ def enhance_resume(job_description, resume_text):
     """
 
     # Call the OpenAI API
-    response = client.chat.completions.create(model="gpt-4", messages = [
+    response = client.chat.completions.create(model="gpt-4o", messages = [
         {"role": "user","content": prompt}
     ],  # Use 'model' instead of 'engine'
-    max_tokens=2000,  # Adjust this based on the length of the response you want
-    temperature=0.4 )  # Controls randomness; lower values mean more predictable output)
+    max_tokens=1000,  # Adjust this based on the length of the response you want
+    temperature=0.7 )  # Controls randomness; lower values mean more predictable output)
 
     # Extract the generated text
     #enhanced_text = response.choices[0].text.strip()
@@ -48,10 +48,12 @@ enhanced_resume = enhance_resume(job_description, resume_text)
 
 
 
-rs = yaml.safe_load(enhanced_resume)
+try:
+    rs = yaml.safe_load(enhanced_resume)
+    print(rs)
+except yaml.YAMLError as e:
+    print(f"YAML Error: {e}")
 
-with open('trail.yaml', 'w') as file:
-    yaml.dump(rs, file)
 
 command = 'rendercv render "trail.yaml" --pdf-path "/Users/narashiman/Documents/GitHub/python_projects/ResumEnhancer"'
 

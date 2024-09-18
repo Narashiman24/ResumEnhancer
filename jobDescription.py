@@ -1,40 +1,49 @@
-description = '''Potential Internships In This Field Include
+description = '''About the job
+Who We Are
+We are a Plymouth, Michigan-based startup, developing cutting-edge technologies for Driver Assistance and Automated Driving systems using artificial intelligence, advanced controls techniques, utilizing high-end CPU/GPU and IoT technologies. We have decades of automotive development experience and expertise to build mature automotive grade products. If you're interested in getting in on the ground-floor of an opportunity that will revolutionize the trucking industry, this is it.
 
-Autonomous Vehicles
 
- Developing and training state-of-the-art Deep Neural Networks for path generation 
- Collecting training datasets and real-time inference run-times using simulators/gyms as well as performing in-vehicle tests 
- Course or internship experience related to the following areas could be required : Computer Vision, Mapping, Localization, SLAM, Image Processing, Segmentation 
+Who You Are
+You are innovative, love challenging problems and building products from the ground up. You want to work on cutting-edge technologies that make a difference. You want to see your work have a direct impact on the company's product. You communicate, you teach, you learn, and you love working in a diverse team.
 
-Deep Learning Applications & Algorithms
 
- Developing algorithms for deep learning, data analytics, or scientific computing to improving performance of GPU implementations 
- Course or internship experience related to the following areas could be required : Deep Neural Networks, Linear Algebra, Numerical Methods and/or Computer Vision, Software Design, Computer Memory (Disk, Memory, Caches), CPU and GPU Architectures, Networking, Numeric Libraries, Embedded System Design and Development, Drivers, Real-Time Software 
 
-Deep Learning Frameworks & Libraries
 
- Building underlying frameworks and libraries to accelerate Deep Learning on GPUs 
- Co ntributing directly to software packages such as JAX, PyTorch , and TensorFlow, integrating the latest library (e.g., cuDNN ) or CUDA features, performance tuning, and analysis 
- Optimizing core deep learning algorithms and libraries (e.g., CuDNN , CuBLAS ), maintaining build, test, and distribution infrastructure for these libraries and deep learning frameworks on NVIDIA supported platforms 
- Course or internship experience related to the following areas could be required : Computer Architecture (CPUs, GPUs, FPGAs or other accelerators) , GPU Programming Models, Performance-Oriented Parallel Programming, Optimizing for High-Performance Computing (HPC), Algorithms, Numerical Methods 
+Role Description 
 
-Robotics
+Developing software layers for communication over SPI, I2C, CAN and Ethernet for variety of sensor and system interfaces 
+Develop calibration interface and programming over CAN 
+Develop IoT and Over-the-Air programming software layers 
+Develop PC-based test and development tools in various environments such as LabVIEW, Python, C, C++, etc 
+Bus load simulation with CAN / Ethernet network with UDP, TCP packet generation and analysis of bandwidth 
+Deploying Matlab/Simulink auto-generated code on embedded target CPU/GPUs 
+Unit and Integration testing and validation of embedded systems 
+Support for demo vehicle integration and testing activities 
+Simulation and testing of CAN/J1939 Networks 
 
- Building the fundamental infrastructure and software platforms of our system, working at the very heart of the software system, which will power every robot and application built with Isaac 
- Course or internship experience related to the following areas could be required : Robotics, Autonomous Vehicles, Validation Frameworks for Machine Learning/Deep Learning, Operating Systems and Data Structures (threads, processes, memory, synchronization), Physics Simulation, Simulators, Computer Graphics, Version Control, Computer Vision, Cloud Technologies 
 
-Machine Learning
+Minimum Qualifications and Skills 
 
- Developing and maintaining the first-generation MLaaS (Machine Learning as a Service) Platform including data ingestion, data indexing, data labeling, visualization, dashboards, and data viewers 
- Course or internship experience related to the following areas could be required : Machine Learning, Deep Learning, Accelerated Computing, GPU Computing, Deep Learning Frameworks, NVIDIA RAPIDS 
+Bachelor's degree in Computer Science, Electrical, Electronics or Computer Engineering with a strong software focus 
+Minimum of five years of progressive engineering experience in automotive embedded software development or proven accomplishments otherwise 
+Mastery of C, C++ 
+Mastery of CAN tools such as CANalyzer, CANape 
+Multithreading, multiprocessing, POSIX threads, Embedded Linux, Real-time systems 
+Ability to understand schematic design and drawings. 
+Self-starter with the ability to work as part of a team in a fast-paced startup environment. 
+ 
+Preferred Qualifications and Skills 
 
-What We Need To See
+Master’s degree or PhD in Electrical, Computer or Software Engineering 
+Strong competency Python, Matlab/Simulink and LabVIEW 
+Five years of minimum developing embedded software for automotive systems 
+High safety integrity software development experience. ISO26262 and SAE/ISO 21434 experience 
+Vehicle diagnostics design & development experience 
+Highly skilled GitHub and/or other similar SCM tools 
 
- Currently pursuing a Bachelor's, Master's, or PhD degree within Electrical Engineering, Computer Engineering, Computer Science, Artificial Intelligence or a related field 
- Depending on the internship role, prior experience or knowledge requirements could include the following programming skills and technologies: C, C++, CUDA, Python, x86, ARM CPU, GPU, Linux, Direct3D, Vulkan, OpenGL, OpenCL, Spark, Perl, Bash/Shell Scripting , Container Tools (Docker/Containers, Kubernetes), Infrastructure Platforms (AWS, Azure, GCP), Data Technologies (Kafka, ELK, Cassandra, Apache Spark) , React, Go 
 
-Click here to learn more about NVIDIA, our early talent programs, benefits offered to students and other helpful student resources related to our latest technologies and endeavors .
 
-The hourly rate for our interns is 18 USD - 71 USD. Our internship hourly rates are a standard pay determined based on the position and your location, year in school, degree, and experience.
 
-You will also be eligible for Intern benefits .  NVIDIA accepts applications on an ongoing basis.'''
+Traxen is an Equal Employment Opportunity employer that proudly pursues and hires a diverse workforce. Traxen does not make hiring or employment decisions on the basis of race, color, religion or religious belief, ethnic or national origin, nationality, sex, gender, gender-identity, sexual orientation, disability, age, military or veteran status, or any other basis protected by applicable local, state, or federal laws or prohibited by Company policy. Traxen also strives for a healthy and safe workplace and strictly prohibits harassment of any kind.
+
+'''

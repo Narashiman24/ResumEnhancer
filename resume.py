@@ -46,7 +46,7 @@ Leadership, Communication, Conflict Resolution, Administration'''
 
 json_data = open('schema.json','r')
 
-resume_format = f'''You are a professional resume generator. Produce a resume in the following YAML format with:
+resume_format = f'''You are a professional resume generator. Produce a resume in the following YAML format. The output shouddn't have anything other than the given yaml format:
 
 cv:
   name: <Your Name>
@@ -160,7 +160,8 @@ locale_catalog:
   present: present  # translation of the word "present"
   to: to            # translation of the word "to"
 
+  
 Use this json schema for refrence: {json_data} Date format is Please use either YYYY-MM-DD, YYYY-MM, or YYYY format or "present"!
 
-Make sure to use the exact YAML structure provided. Use indentation, colons, and hyphens properly to maintain valid YAML syntax. Fill in each section with appropriate resume information in a similar structured format.
+Make sure to use the exact YAML structure provided in exact order. Use indentation, colons, and hyphens properly to maintain valid YAML syntax. Fill in each section with appropriate resume information in a similar structured format.
 '''
