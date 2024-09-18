@@ -1,7 +1,7 @@
 import json
 
 my_resume = '''Niruthiya Narashiman Srinivasan
-+1(470) 460 0085 | nsrinivasan3@student.gsu.edu | Atlanta, GA | linkedin.com/narashimans
++1(470) 460 0085 | nsrinivasan3@student.gsu.edu | Atlanta, GA | linkedin.com/narashimans | Github.com/Narashiman24
 EDUCATION
 Bachelor’s of Computer Science, Georgia State University
 Relevant Coursework: System Level Programming, Data Structures, Calc II, Probability, and Stats.
@@ -160,7 +160,7 @@ locale_catalog:
   present: present  # translation of the word "present"
   to: to            # translation of the word "to"
 
-Use this json schema for refrence: {json_data}
+Use this json schema for refrence: {json_data} Date format is Please use either YYYY-MM-DD, YYYY-MM, or YYYY format or "present"!
 
 Make sure to use the exact YAML structure provided. Use indentation, colons, and hyphens properly to maintain valid YAML syntax. Fill in each section with appropriate resume information in a similar structured format.
 '''

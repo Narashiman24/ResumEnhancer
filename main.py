@@ -2,7 +2,7 @@ from openai import OpenAI
 import jobDescription as jd
 from resume import *
 import yaml 
-import subprocess
+import os
 
 
 myAPIkey = open("apikey.txt",'r')
@@ -53,4 +53,6 @@ rs = yaml.safe_load(enhanced_resume)
 with open('trail.yaml', 'w') as file:
     yaml.dump(rs, file)
 
-command = 'rendercv render "trail.yaml" --pdf-path "/Users/narashiman/Documents/GitHub/python_projects/ResumEnhancer" --dont-generate-markdown --dont-generate-html --dont-generate-png'
+command = 'rendercv render "trail.yaml" --pdf-path "/Users/narashiman/Documents/GitHub/python_projects/ResumEnhancer"'
+
+result = os.system(command)

@@ -87,6 +87,7 @@ cv:
       - label: Technologies
         details: .NET, Microsoft SQL Server, XCode, Interface
           Builder
+          
 design:
   theme: sb2nov
   font: Source Sans 3
