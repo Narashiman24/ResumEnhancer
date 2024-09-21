@@ -1,0 +1,39 @@
+cv:
+  email: p@gmail.com
+  location: atlanta
+  name: john doe
+  phone: '4704600085'
+  sections:
+    education:
+    - area: computer science
+      degree: bachelors of science
+      end_date: present
+      institution: georgia state university
+      start_date: aug 2022
+    experience:
+    - company: apple
+      end_date: present
+      location: atlanta
+      position: developer
+      start_date: jan 2024
+    - company: google
+      end_date: present
+      location: Los Angeles
+      position: CEO
+      start_date: Jun 2024
+    projects:
+    - date: jan 2024
+      name: large Language model
+    - date: may 22024
+      name: wwww
+    technologies:
+    - details: tamil, english , kanada
+      label: Languages
+    - details: python, java, c, c++, html, javascript, php
+      label: Technologies
+  social_networks:
+  - network: LinkedIn
+    username: narashimans
+  - network: GitHub
+    username: Narashiman24
+  website: instagram.com

@@ -8,7 +8,7 @@ def job_details_provider(job_posting_url):
     job_id = re.search(r'currentJobId=(\d+)', job_posting_url).group(1)
     
     headers = {
-	"x-rapidapi-key": "f8f9a6a8d1mshe2f417cbda2e8a2p14afcbjsn71209cf60d0b",
+	"x-rapidapi-key": open("rapidapi_api_key.txt",'r').read(),
 	"x-rapidapi-host": "linkedin-api8.p.rapidapi.com"
     }
 
