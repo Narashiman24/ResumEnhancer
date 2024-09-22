@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  17 SEP 2024 23:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.1)  22 SEP 2024 18:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -724,7 +724,7 @@ framework/Versions/3.12/lib/python3.12/site-packages/rendercv/renderer/tinytex-
 release/TinyTeX/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/Librar
 y/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/render
 cv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
-}] 
+}] [2] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./Niruthiya_Narashiman_Srinivasan_CV.aux)
  ***********
@@ -733,13 +733,13 @@ L3 programming layer <2024-03-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 14829 strings out of 476002
- 273481 string characters out of 5788363
- 1949496 words of memory out of 5000000
- 36766 multiletter control sequences out of 15000+600000
+ 14831 strings out of 476002
+ 273495 string characters out of 5788363
+ 1952496 words of memory out of 5000000
+ 36767 multiletter control sequences out of 15000+600000
  593461 words of font info for 57 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 75i,10n,79p,418b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,418b,518s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packa
 ges/rendercv/renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/fon
 tawesome5/FontAwesome5Brands-Regular.pfb></Library/Frameworks/Python.framework/
@@ -758,11 +758,11 @@ s/Python.framework/Versions/3.12/lib/python3.12/site-packages/rendercv/renderer
 /tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb></Library/
 Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/rendercv
 /renderer/tinytex-release/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Niruthiya_Narashiman_Srinivasan_CV.pdf (1 page, 153480 bytes)
-.
+Output written on Niruthiya_Narashiman_Srinivasan_CV.pdf (2 pages, 155156 bytes
+).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 500000)
+ 85 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

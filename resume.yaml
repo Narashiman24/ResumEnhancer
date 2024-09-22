@@ -1,39 +1,141 @@
 cv:
-  email: p@gmail.com
-  location: atlanta
-  name: john doe
-  phone: '4704600085'
+  name: Niruthiya Narashiman Srinivasan
+  location: Atlanta, GA
+  email: nsrinivasan3@student.gsu.edu
+  phone: +1(470) 460 0085
+  website: null
+  social_networks:
+    - network: LinkedIn
+      username: linkedin.com/narashimans
+    - network: GitHub
+      username: Narashiman24
   sections:
     education:
-    - area: computer science
-      degree: bachelors of science
-      end_date: present
-      institution: georgia state university
-      start_date: aug 2022
+      - institution: Georgia State University
+        area: Computer Science
+        degree: BS
+        start_date: 2021-08
+        end_date: present
+        highlights:
+          - "President's List (Fall 23)"
+          - Dean\'s List (Spring 23 - Present)
+          - Relevant Coursework System Level Programming, Data Structures, Calculus II, Probability and Statistics
     experience:
-    - company: apple
-      end_date: present
-      location: atlanta
-      position: developer
-      start_date: jan 2024
-    - company: google
-      end_date: present
-      location: Los Angeles
-      position: CEO
-      start_date: Jun 2024
+      - company: Georgia State University
+        position: Computer Science Tutor
+        location: Atlanta, GA
+        start_date: 2023-10
+        end_date: present
+        highlights:
+          - Tutored over 50 students in computer science courses including CSC1301 and CSC1302
+          - Led group sessions and communicated common issues to professors
+          - Demonstrated complex concepts like OOP, Data Structures, Pandas, and NumPy
+      - company: Georgia State University
+        position: Resident Assistant
+        location: Atlanta, GA
+        start_date: 2023-10
+        end_date: present
+        highlights:
+          - Facilitated intentional conversations and conflict resolution strategies
+          - Acted as first point of contact for over 60 students
+          - Fostered a supportive environment within University Housing
     projects:
-    - date: jan 2024
-      name: large Language model
-    - date: may 22024
-      name: wwww
+      - name: Facial Emotion Detector
+        date: 2023-05
+        highlights:
+          - Created a real-time facial emotion detection system using pre-trained models
+          - Employed OpenCV, numpy, tensorflow, keras, and the fer library
+          - Processed and analyzed emotions in over 1000 video frames
+      - name: Text Sentiment Analyzer
+        date: 2023-03
+        highlights:
+          - Developed a sentiment analysis system for IMDb movie reviews
+          - Used Python, nltk, and the VADER sentiment analysis model
+          - Analyzed the sentiment of over 500 movie reviews
+      - name: Phone Number Locator
+        date: 2022-12
+        highlights:
+          - Created a Python script to manage and analyze mobile phone data from an API
+          - Processed and analyzed data from over 10000 mobile phone numbers
+          - Achieved a 100% success rate in retrieving and recording network and circle details
     technologies:
-    - details: tamil, english , kanada
-      label: Languages
-    - details: python, java, c, c++, html, javascript, php
-      label: Technologies
-  social_networks:
-  - network: LinkedIn
-    username: narashimans
-  - network: GitHub
-    username: Narashiman24
-  website: instagram.com
+      - label: Programming Languages
+        details: Python, MySQL, HTML, CSS
+      - label: Tools & Frameworks
+        details: REST APIs, Flutter, Flask, OpenCV, nltk, tensorflow, keras
+      - label: Cloud Services
+        details: AWS
+      - label: Soft Skills
+        details: Leadership, Communication, Conflict Resolution, Administration
+
+design:
+  theme: mycustomtheme
+  font: EB Garamond
+  font_size: 12pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: PAGE_NUMBER
+  disable_last_updated_date: false
+  header_font_size: 30 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 1 cm
+      bottom: 1 cm
+      left: 1 cm
+      right: 1 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+
+locale_catalog:
+  phone_number_format: national 
+  date_style: "MONTH_ABBREVIATION YEAR" 
+  abbreviations_for_months: 
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months: 
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: to

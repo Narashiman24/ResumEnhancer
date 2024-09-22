@@ -1,62 +1,53 @@
 import json
 
-my_resume = f'''Mukhil Baskaran
-470-923-9619 | mbaskaran3@student.gsu.edu | mukhilbaskaran.com | linkedin.com/in/mukhil-baskaran |
-github.com/mukhil0212
-Education
-Georgia State University Atlanta, GA
-Bachelor of Science in Computer Science Expected 2025
-• President’s List, Spring 2024
-• GPA: 3.52
-• Team Lead for a cross-functional project team, guiding peers in implementing web-based solutions.
-Experience
-Panther Dining - Chick-fil-A Student Software Assistant Atlanta, GA
-Sep 2021 – Oct 2022
-• Developed a stock inventory management system using Flask, HTML, CSS, and AWS, reducing inventory tracking
-errors by 30%.
-• Integrated AI/ML models for enhanced stock management, improving stock forecasting accuracy by 25%.
-• Streamlined data analysis and management using Pandas and Excel, increasing operational efficiency by 20%.
-• Provided customer service, managing order processing and resolving inquiries, enhancing customer satisfaction.
-Tech Stack: Flask, HTML, CSS, AWS, AI/ML, Power BI, Pandas, Excel
-MSV Enterprises Coimbatore, India
-Data Science Intern May 2021 – Aug 2021
-• Developed a linear regression model in Python to forecast product demand, increasing sales revenue by 15%.
-• Created a Power BI dashboard, boosting cross-selling by 5%.
-• Engineered a Python-based ETL process to integrate data from multiple sources into a SQL database, improving
-data processing efficiency by 20%.
-• Utilized PyTorch for clustering algorithms to identify high-value customer segments, reducing marketing costs by
-8%.
-Tech Stack: Python, Power BI, SQL, ETL, PyTorch
-Projects
-Pneumonia Detection from X-ray Images | Python, PyTorch, Keras, OpenCV Jan 2024
-• Developed a Convolutional Neural Network (CNN) using PyTorch and Keras to identify signs of pneumonia from
-chest X-ray images, processing a dataset of over 5,000 images.
-• Implemented data augmentation techniques to improve the model’s generalization ability.
-• Achieved over 90% accuracy in detecting pneumonia across various testing datasets.
-Madura Creation Portfolio Website (Client Project) | React, Tailwind CSS, AWS, Vercel Nov 2023 – Feb 2024
-• Designed and developed a dynamic portfolio website for Madura Creation to showcase their business services.
-• Implemented responsive web design with Tailwind CSS for optimal viewing on all devices, increasing site traffic by
-25%.
-Football Analysis Project | YOLO, Kmeans, Optical Flow, Python, OpenCV, NumPy, Matplotlib, Pandas
-• Developed a system to detect and track players, referees, and footballs in video using YOLO, enhancing object
-detection accuracy by 15%.
-• Implemented Kmeans for pixel segmentation and clustering to assign players to teams based on t-shirt colors,
-achieving 90% precision in player assignment.
-• Utilized Optical Flow to measure camera movement between frames, improving player tracking by 10%.
-• Applied Perspective Transformation to represent scene depth, enabling measurement of player movements in meters
-rather than pixels, increasing tracking precision by 12%.
-• Calculated player speed and distance covered, providing comprehensive performance metrics and insights for team
-analysis.
-Technical Skills
-Languages: JavaScript, TypeScript, Python, SQL, HTML/CSS, R
-Frameworks: React, Flask, Django, TensorFlow, Keras, Tailwind CSS, Next.js, Node.js
-Developer Tools: Git, Docker, VS Code
-Libraries: pandas, NumPy, Matplotlib, OpenCV, PyTorch'''
+my_resume = f'''Niruthiya Narashiman Srinivasan
++1(470) 460 0085 | nsrinivasan3@student.gsu.edu | Atlanta, GA | linkedin.com/narashimans
+EDUCATION
+Bachelor’s of Computer Science, Georgia State University
+Relevant Coursework: System Level Programming, Data Structures, Calc II, Probability, and Stats.
+President’s List(Fall 23), Dean’s List(Spring23-Present)
+PROJECTS
+Facial Emotion Detector
+• Created a real-time facial emotion detection system using pre-trained models, enhancing user
+interaction by identifying emotions from live video feeds.
+• Employed OpenCV, numpy, tensorflow, keras, and the fer library to implement and optimize the emotion
+detection process.
+• Successfully processed and analyzed emotions in over 1000 video frames, ensuring robust and accurate
+emotion detection across diverse scenarios.
+Text Sentiment Analyzer
+• Developed a sentiment analysis system for IMDb movie reviews, accurately categorizing reviews as
+positive, negative, or neutral.
+• Used Python, nltk, and the VADER sentiment analysis model for efficient natural language processing
+and sentiment scoring.
+• Analyzed the sentiment of over 500 movie reviews, providing detailed sentiment insights and enhancing
+data-driven decision-making.
+Phone Number Locator
+• Created a Python script utilizing requests and csv libraries to manage and analyze mobile phone data
+from an API, ensuring accurate retrieval and storage of operator and circle information.
+• Processed and analyzed data from over 10000 mobile phone numbers, achieving a 100% success rate in
+retrieving and recording network and circle details, optimizing data accuracy and accessibility.
+EXPERIENCE
+Computer Science Tutor Oct 2023 - Present
+Computer Science Dept., Georgia State University
+• Tutored more than 50 students with computer science classes, including CSC1301 and CSC1302.
+• Led multiple group sessions and identified the common issues with specific concepts and addressed the
+issue to respective professors
+• Demonstrated strong communication skills and taught complex concepts like OOP, Data Structures,
+Pandas, and NumPy.
+Resident Assistant Oct 2023 -
+Present
+• Facilitated intentional conversations and conflict resolution strategies to promote student well-being
+and adherence to university policies, enhancing interpersonal communication skills
+• Acting as first of contact for more than 60 students and fostering a supportive environment for diverse
+student populations within University Housing
+SKILLS
+Technical Skills Soft Skills Python, MySQL, REST APIs, Flutter, Flask, HTML, CSS
+Leadership, Communication, Conflict Resolution, Administration'''
 
 json_data = open('schema.json','r')
 
-resume_format_1 = f'''You are a professional resume generator. Produce a resume in the following YAML format without changing the order of elements. The output shouddn't have anything other than the given yaml format:
-
+resume_format_1 = f'''You are a professional resume generator. You are someone someone who always follows rules as given Produce a resume in the following YAML format without changing the order of elements. The output shouddn't have anything other than the given yaml format:
+The phone number format is ##########. and is no website is not given use null.And you escape elemnent if needed
 cv:
   name: <Your Name>
   location: <Your Location>
