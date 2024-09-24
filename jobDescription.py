@@ -15,3 +15,6 @@ def job_details_provider(job_posting_url):
     response = requests.get(url, headers=headers, params={"id":job_id}).json()
     return (response['data']['company']['universalName'],response['data']['title'],response['data']['description'])
 
+
+
+hard_jd_text_str = f''' dljdlaljd'''
