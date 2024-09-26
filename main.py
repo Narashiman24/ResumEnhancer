@@ -35,6 +35,7 @@ def enhance_resume(job_description, resume_text):
     return response.choices[0].message.content #gets the output structure and ouptut.
 
 # Asking user's input for job posting page to get job description
+
 '''Example usage
 user_job_posting_url = str(input("Please enter you job url: "))
 job_details_output_main = jd.job_details_provider(user_job_posting_url)
@@ -59,9 +60,6 @@ enhanced_resume = enhance_resume(main_job_description, resume_text).lstrip('```y
         result = os.system(command)
 except yaml.YAMLError as e:
     print(f"YAML Error: {e}")'''
-
-
-#command = f'rendercv render "trail.yaml" --pdf-path "/Users/narashiman/Documents/GitHub/python_projects/ResumEnhancer/generated_resumes"  --output-folder-name "{job_details_output_main[0]}_{job_details_output_main[1]} --dont-generate-markdown --dont-generate-html --dont-generate-png"'
 
 command = f'rendercv render "resume.yaml" --pdf-path "/Users/narashiman/Documents/GitHub/python_projects/ResumEnhancer/generated_resumes" --dont-generate-markdown --dont-generate-html --dont-generate-png'
 os.system(command)
