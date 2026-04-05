@@ -1,0 +1,28 @@
+# API keys — never commit these
+.env
+*.txt
+
+# Generated output — PDFs and intermediate YAML live here
+generated_resumes/
+
+# The input resume YAML contains personal info; share only resume.yaml as a sample
+# and keep your real working copy out of version control
+# resume.yaml  ← commented out so the example file IS tracked; uncomment if you
+#                want to keep your personal YAML private
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
